@@ -9,6 +9,6 @@ public class Sum {
         int a,b;
         a=Integer.parseInt(args[0]);
         b=Integer.parseInt(args[1]);
-        System.out.println(a+b);
+        System.out.println("The sum of "+a+" and "+b+" is "+(a+b));
     }
 }
