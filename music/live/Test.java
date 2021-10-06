@@ -1,4 +1,5 @@
 package Questions.music.live;
+import Questions.music.Playable;
 import Questions.music.string.Veena;
 
 import Questions.music.wind.Saxophone;
@@ -8,5 +9,12 @@ public class Test {
         v.play();
         Saxophone s=new Saxophone();
         s.play();
+        Playable p=new Playable() {
+            @Override
+            public void play() {
+                System.out.println("playable");
+            }
+        };
+        p.play();
     }
 }
